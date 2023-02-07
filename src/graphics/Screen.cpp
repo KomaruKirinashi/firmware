@@ -552,7 +552,7 @@ static void drawGPScoordinates(OLEDDisplay *display, int16_t x, int16_t y, const
         displayLine = "No GPS Module";
         display->drawString(x + (SCREEN_WIDTH - (display->getStringWidth(displayLine))) / 2, y, displayLine);
     } else if (!gps->getHasLock() && !config.position.fixed_position) {
-        displayLine = "No GPS Lock";
+        displayLine = "Waiting on GPS";
         display->drawString(x + (SCREEN_WIDTH - (display->getStringWidth(displayLine))) / 2, y, displayLine);
     } else {
 
