@@ -106,7 +106,7 @@
 #define LORA_POWER_CTRL_CH 2
 
 // Default Bluetooth PIN
-#define defaultBLEPin 666
+#define defaultBLEPin 6666
 
 #if HAS_ETHERNET
 #include <RAK13800_W5100S.h>
